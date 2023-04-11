@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int number=17823;
+    int sum=0;
+    int num=0;
+    int dive=0;
+    while(number>0){
+        num=number%10;
+        //sum=num
+        sum=num+sum;
+        number=number/10;
+        dive++;
+    }
+    cout<<"Count the number:";
+    cout<<dive<<endl;
+    cout<<"Sum the number:";
+    cout<<sum;
+    return 0;
+}
