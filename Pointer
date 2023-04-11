@@ -1,0 +1,17 @@
+# c-#include <iostream>
+using namespace std;
+int main() {
+    int x=10;
+    int *ptr;
+    int marks=100;
+    ptr=&marks;
+    cout<<*ptr<<endl;
+    //Addresing store 
+    int x=10;
+    int y=10;
+    int *ptr=&x;
+    cout<<&x<<endl;
+    cout<<ptr<<endl;
+    cout<<&y;
+    return 0;
+}
