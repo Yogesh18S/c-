@@ -40,3 +40,25 @@ int main() {
     cout<<*p1<<" "<<*p2;
     return 0;
 }
+
+int main() {
+    // Write C++ code here
+    int x=18;
+    int *p=&x;
+    cout<<*p<<" "<<p<<" "<<p+1<<" "<<*p+1<<" "<<p+2<<" "<<p+3<<endl;
+    cout<<p-1<<endl<<endl;
+    
+    cout<<"newwwwwwwwwwend;"<<endl;
+    int arr[2]={1,19};
+    int *ptr1=&arr[0];
+    cout<<*ptr1++<<endl;
+    cout<<*ptr1<<endl;
+    //cout<<(*ptr1)<<"\n";
+    //cout<<*ptr1;
+   // cout<<ptr1;
+       int arr1[3]={1,19,50};
+   cout<<"newwwwwwwwww"<<endl;
+    int *ptr2=&arr1[0];  
+    cout<<*++ptr2<<" "<<*++ptr2;
+    return 0;
+}
